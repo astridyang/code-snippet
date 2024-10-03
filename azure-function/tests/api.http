@@ -1,0 +1,21 @@
+# 请求1：上传文件
+POST http://localhost:8000/upload/
+Authorization: Bearer your_jwt_token
+Content-Type: multipart/form-data
+
+--boundary
+Content-Disposition: form-data; name="files"; filename="test_file.txt"
+Content-Type: text/plain
+
+这是一个测试文件的内容。
+--boundary--
+
+# 请求2：未提供文件
+POST http://localhost:8000/upload/
+Authorization: Bearer your_jwt_token
+Content-Type: multipart/form-data
+
+--boundary
+Content-Disposition: form-data; name="files"
+
+--boundary--
