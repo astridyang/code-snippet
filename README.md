@@ -4,6 +4,18 @@
 
 ### 错误 ERROR: Could not install packages due to an OSError
 
+- 1021
+- 手动上传 zip 包到 C:\home\data\SitePackages
+- 上传之后，手动修改 C:\home\data\SitePackages\packagename.txt ，此文件只需要输入 zip 包的文件名即可。
+- https://learn.microsoft.com/zh-cn/azure/azure-functions/functions-deployment-technologies?tabs=windows#trigger-syncing
+- [Azure Functions Python 开发人员指南](https://learn.microsoft.com/zh-cn/azure/azure-functions/functions-reference-python?tabs=get-started%2Casgi%2Capplication-level&pivots=python-mode-decorators#environment-variables)
+- [从 Azure 中的包文件运行函数](https://learn.microsoft.com/zh-cn/azure/azure-functions/run-functions-from-deployment-package)
+- [Azure Functions 中的部署技术](https://learn.microsoft.com/zh-cn/azure/azure-functions/functions-deployment-technologies?tabs=windows#trigger-syncing)
+- この2つの方法をもう一度試したいと思います
+- 1.パッケージをローカルにインストールしてから、--no-build パラメーターを使用してデプロイする（昨日間違えました、oryx build をスキップするわけではない）。
+  ![ローカル パッケージをインストールする](assets/README/image.png)
+- 2.ZIP ファイルとパッケージを別々にアップロードする（昨日、パッケージを間違ったパスに置いてしまいました）。
+
 - 1020
 - https://www.shanebart.com/az-func-internal-server-500-error/
 - https://learn.microsoft.com/en-us/azure/azure-functions/functions-scale#service-limits
