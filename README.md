@@ -12,9 +12,9 @@
 - [从 Azure 中的包文件运行函数](https://learn.microsoft.com/zh-cn/azure/azure-functions/run-functions-from-deployment-package)
 - [Azure Functions 中的部署技术](https://learn.microsoft.com/zh-cn/azure/azure-functions/functions-deployment-technologies?tabs=windows#trigger-syncing)
 - この2つの方法をもう一度試したいと思います
-- 1.パッケージをローカルにインストールしてから、--no-build パラメーターを使用してデプロイする（昨日間違えました、oryx build をスキップするわけではない）。
+- 1.パッケージをローカルにインストールしてから、--no-build パラメーターを使用してデプロイする（oryx build をスキップするわけではない）。
   ![ローカル パッケージをインストールする](assets/README/image.png)
-- 2.ZIP ファイルとパッケージを別々にアップロードする（昨日、パッケージを間違ったパスに置いてしまいました）。
+- 2.ZIP ファイルとパッケージを別々にアップロードする（昨日、パッケージをZIPファイルにまとめてしまいましたが、/home/site/wwwrootの下に置くべきでした）。
 
 - 1020
 - https://www.shanebart.com/az-func-internal-server-500-error/
