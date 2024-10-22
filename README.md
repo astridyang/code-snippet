@@ -11,20 +11,12 @@
 - [Azure Functions Python 开发人员指南](https://learn.microsoft.com/zh-cn/azure/azure-functions/functions-reference-python?tabs=get-started%2Casgi%2Capplication-level&pivots=python-mode-decorators#environment-variables)
 - [从 Azure 中的包文件运行函数](https://learn.microsoft.com/zh-cn/azure/azure-functions/run-functions-from-deployment-package)
 - [Azure Functions 中的部署技术](https://learn.microsoft.com/zh-cn/azure/azure-functions/functions-deployment-technologies?tabs=windows#trigger-syncing)
-- この2つの方法をもう一度試したいと思います
-- 1.パッケージをローカルにインストールしてから、--no-build パラメーターを使用してデプロイする（oryx build をスキップするわけではない）。
-  ![ローカル パッケージをインストールする](assets/README/image.png)
-- 2.ZIP ファイルとパッケージを別々にアップロードする（昨日、パッケージをZIPファイルにまとめてしまいましたが、/home/site/wwwrootの下に置くべきでした）。
+- [使用 Core Tools 在本地开发 Azure Functions](https://learn.microsoft.com/zh-cn/azure/azure-functions/functions-run-local?tabs=windows%2Cisolated-process%2Cnode-v4%2Cpython-v2%2Chttp-trigger%2Ccontainer-apps&pivots=programming-language-python#project-file-deployment)
 
 - 1020
 - https://www.shanebart.com/az-func-internal-server-500-error/
 - https://learn.microsoft.com/en-us/azure/azure-functions/functions-scale#service-limits
 - https://learn.microsoft.com/zh-cn/azure/storage/files/storage-how-to-use-files-portal?tabs=azure-portal
-
-- 删除 home 下的旧 deploy 文件
-- 把模型放到 azure files 或者 blob storage
-- 查看 package 安装目录
-- 预先在服务器安装 package？
 
 ```
 文件系统查看命令：df
