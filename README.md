@@ -2,6 +2,8 @@
 
 # 部署
 
+- [Azure Functions 的 Zip 部署](https://learn.microsoft.com/zh-cn/azure/azure-functions/deployment-zip-push)
+
 ### 错误 ERROR: Could not install packages due to an OSError
 
 - 1021
